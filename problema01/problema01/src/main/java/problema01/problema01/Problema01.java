@@ -4,6 +4,8 @@
 
 package problema01.problema01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Diego
@@ -11,6 +13,15 @@ package problema01.problema01;
 public class Problema01 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner entrada= new Scanner (System.in);
+        double area;
+        double base;
+        System.out.println("Escriba el area del triangulo a calcular");
+        area= entrada.nextDouble();
+        System.out.println("Escriba la base del triangulo a calcular");
+        base= entrada.nextDouble();
+        
+        double resultado = (area* base)/2;
+        System.out.println(resultado);
     }
 }
