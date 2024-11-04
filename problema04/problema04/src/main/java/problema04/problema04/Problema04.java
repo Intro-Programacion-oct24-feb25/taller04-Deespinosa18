@@ -48,6 +48,6 @@ public class Problema04 {
                     teclado,
                     raton,
                     pantalla);
-        System.out.println(pantalla + raton + teclado + cpu);
+        System.out.println(pantalla + raton + teclado + cpu);   
     }
 }
